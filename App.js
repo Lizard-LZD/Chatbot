@@ -4,7 +4,7 @@ import Header from './Header';
 import MessageList from './MessageList';
 import MessageInput from './MessageInput';
 
-const IP_ADDRESS = '192.168.19.199';
+const IP_ADDRESS = <Your IPv4 Address>;
 
 const Chat = () => {
   const [messages, setMessages] = useState([
