@@ -19,7 +19,7 @@ const Chat = () => {
 
   const handleSubmit = async () => {
 
-    if (!prompt) return;
+    if (!prompt.trim()) return;
 
     setTimeout(() => {
       setPrompt('')
